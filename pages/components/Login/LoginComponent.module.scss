@@ -1,0 +1,14 @@
+.styledWrapper {
+  width: 650px;
+  height: 550px;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between !important;
+}
+
+.stackWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

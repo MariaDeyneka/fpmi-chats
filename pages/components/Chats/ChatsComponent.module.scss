@@ -1,0 +1,38 @@
+.displayContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.chatContainer {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.replyContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.textContainer{
+    width: 65%;
+    color: white;
+    padding: 15px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeContainer {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  width: 98%;
+}
